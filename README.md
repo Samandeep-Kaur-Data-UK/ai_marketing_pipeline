@@ -221,6 +221,39 @@ suggesting seasonal variation in customer satisfaction.
 
 ---
 
+### Day 54 - End-to-End Pipeline Test
+
+**Script:** `run_pipeline.sh`
+**Command:** `./run_pipeline.sh`
+
+| Step | Script | Status |
+|---|---|---|
+| 1 | 01_load_data.py | PASSED |
+| 2 | 02_vader_sentiment.py | PASSED |
+| 3 | 02_transformer_sentiment.py | PASSED |
+| 4 | 03_generate_report.py | PASSED |
+| 5 | 05_sentiment_trend.py | PASSED |
+
+**Finding:** All 5 pipeline steps run end-to-end without intervention via a
+single bash command. In a commercial setting this would be scheduled as a
+daily cron job to automatically refresh sentiment insights from new reviews.
+
+---
+
+### Day 55 - GitHub Documentation
+
+| Item | Detail |
+|---|---|
+| requirements.txt | 35 packages captured |
+| Setup Instructions | Added to README |
+| Screenshot renamed | Project2_AI_Sentiment_Dashboard_BERT_Day53_v1.png |
+| run_pipeline.sh | Added to Scripts table |
+
+**Finding:** Repository is fully documented and recruiter-ready. Any developer
+can clone and run the full pipeline in three commands.
+
+---
+
 ## Status
 - [x] Day 46 - Setup and data load
 - [x] Day 47 - VADER sentiment baseline
