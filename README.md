@@ -17,10 +17,25 @@ and surfaces actionable insights for marketing teams.
 - Key columns: Text (review), Score (1-5 stars), Summary
 
 ## Tech Stack
+
 - Python 3.14 / Pandas 3.0
 - Sentiment Analysis: VADER / HuggingFace Transformers (DistilBERT)
 - Visualisation: Power BI (DAX measures, Word Cloud visual)
 - Automation: Python scripted pipeline
+
+## Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/Samandeep-Kaur-Data-UK/ai_marketing_pipeline.git
+cd ai_marketing_pipeline
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the full pipeline
+./run_pipeline.sh
+```
 
 ## Scripts
 | Script | Purpose |
