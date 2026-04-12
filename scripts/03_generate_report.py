@@ -4,6 +4,7 @@ from pathlib import Path
 from collections import Counter
 import re
 from datetime import date
+import ollama
 
 def extract_themes(texts: pd.Series, top_n: int = 5) -> list[tuple[str, int]]:
     """Extract top N keyword themes from review text."""
@@ -74,7 +75,40 @@ def generate_report(input_path: str, report_date: str) -> None:
     for i, (word, freq) in enumerate(top_negative, 1):
         lines.append(f"  {i}. {word:<20} (mentioned {freq} times)")
 
-    lines += ["", "=" * 60, "  END OF REPORT", "=" * 60]
+    # --- AI Narrative ---
+    prompt = f"""You are a senior marketing analyst writing for a non-technical stakeholder.
+
+Sentiment results:
+- Total reviews: {total:,}
+- Positive: {sentiment_pct.get('POSITIVE', 0)}%
+- Negative: {sentiment_pct.get('NEGATIVE', 0)}%
+- Neutral: {sentiment_pct.get('NEUTRAL', 0)}%
+- Avg confidence: {avg_confidence:.2f}
+- Top negative themes: {', '.join([w for w, _ in top_negative])}
+- Top positive themes: {', '.join([w for w, _ in top_positive])}
+
+Write exactly 3 paragraphs:
+1. Overall sentiment health and what it signals.
+2. Key concerns from negative themes and business implications.
+3. Two specific actionable recommendations for the marketing team.
+
+Plain business English. No bullet points."""
+
+    response = ollama.chat('llama3.2', messages=[{'role': 'user', 'content': prompt}])
+    narrative = response['message']['content']
+
+    lines += [
+        "",
+        "=" * 60,
+        "  AI EXECUTIVE SUMMARY",
+        "=" * 60,
+        "",
+        narrative,
+        "",
+        "=" * 60,
+        "  END OF REPORT",
+        "=" * 60,
+    ]
 
     report_text = "\n".join(lines)
 
