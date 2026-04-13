@@ -1,0 +1,253 @@
+review_text,source,date,bert_label,bert_score
+"Welcome to our UK online shop, where you can find the best deals on everything from home decor to outdoor gear!",social,2026-04-13,positive,0.9997
+Our store is open 7 days a week and ships worldwide.,social,2026-04-13,positive,0.9993
+"We have over 10,000 products in stock, all sourced from top brands and suppliers.",social,2026-04-13,positive,0.9954
+"From fashion to food, we've got you covered with our vast selection of items.",social,2026-04-13,positive,0.9994
+Our prices are competitive and our customer service is second to none.,social,2026-04-13,negative,0.995
+Use code WELCOME15 at checkout to receive 15% off your first order.,social,2026-04-13,negative,0.9014
+"Shop small, shop local: by shopping with us, you're supporting British businesses.",social,2026-04-13,positive,0.9969
+"Follow us for exclusive deals, promotions, and giveaways!",social,2026-04-13,positive,0.9975
+New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9987
+"Get ready to fall in love with our new range of candles, made from all-natural ingredients.",social,2026-04-13,positive,0.9997
+"Our team is always here to help, so don't hesitate to get in touch if you have any questions.",social,2026-04-13,positive,0.9994
+Want to know the story behind our store? We're passionate about sharing the stories of the brands we work with!,social,2026-04-13,positive,0.9999
+"From bespoke gifts to personalized accessories, make it special with our unique items.",social,2026-04-13,positive,0.9997
+Stay ahead of the game with our latest collection of outdoor gear and equipment.,social,2026-04-13,positive,0.9973
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Join our loyalty scheme and earn points on every purchase you make.,social,2026-04-13,positive,0.9994
+We're proud to be a part of the UK's thriving online shopping scene.,social,2026-04-13,positive,0.9999
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+"New season, new styles: our latest fashion drops are live now and they're looking fabulous!",social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get the inside scoop on the latest trends with our expert advice and style tips.,social,2026-04-13,positive,0.9988
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+We're committed to sustainability and reducing our carbon footprint wherever possible.,social,2026-04-13,positive,0.9991
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+"Shop 'til you drop in our epic sale event, happening now!",social,2026-04-13,positive,0.9968
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our latest collection of beauty products is now live - get ready to pamper yourself!,social,2026-04-13,positive,0.9537
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+Ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.8588
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"From bespoke gifts to personalized accessories, make it special with our unique items.",social,2026-04-13,positive,0.9997
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+Stay ahead of the curve with our expert advice on the latest beauty trends.,social,2026-04-13,positive,0.9996
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+We're proud to be a part of the UK's thriving online shopping scene - thanks for your support!,social,2026-04-13,positive,0.9998
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9981
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Join our loyalty scheme and earn points on every purchase you make.,social,2026-04-13,positive,0.9994
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our latest collection of fashion accessories is now live - get ready to elevate your style!,social,2026-04-13,positive,0.9998
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+Ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.8588
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+"Get ready to fall in love with our new range of candles, made from all-natural ingredients.",social,2026-04-13,positive,0.9997
+We're proud to be a part of the UK's thriving online shopping scene - thanks for your support!,social,2026-04-13,positive,0.9998
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+New arrival alert! Our latest shipment of spring clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9984
+Get ahead of the game with our expert advice on the latest beauty trends.,social,2026-04-13,positive,0.9997
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9987
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+"Get ready to fall in love with our new range of candles, made from all-natural ingredients.",social,2026-04-13,positive,0.9997
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready to elevate your style with our latest collection of fashion accessories.,social,2026-04-13,positive,0.9997
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+New arrival alert! Our latest shipment of autumn clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9984
+Get ahead of the game with our expert advice on the latest beauty trends.,social,2026-04-13,positive,0.9997
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9981
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9987
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9981
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of autumn clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9984
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9981
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9995
+New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!,social,2026-04-13,positive,0.9987
+Discover the art of slow living with our range of mindfulness and wellness goodies.,social,2026-04-13,positive,0.9998
+Want to learn more about our store and its mission? Take a look at this video clip from our launch day!,social,2026-04-13,negative,0.968
+"From statement pieces to everyday essentials, shop our curated selection of gifts.",social,2026-04-13,positive,0.9985
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Stay ahead of the curve with our expert advice on the latest fashion trends.,social,2026-04-13,positive,0.9993
+Discover the best-selling products in our shop right now and get ready to treat yourself!,social,2026-04-13,positive,0.9998
+Our customer reviews say it all - we've got an impressive 5-star rating!,social,2026-04-13,positive,0.9998
+Get ready for a challenge? Try your hand at one of our free online workshops and get creative!,social,2026-04-13,positive,0.9459
+"From statement pieces to everyday essentials, shop our curated selection of homeware.",social,2026-04-13,positive,0.9877
+"We're passionate about supporting local causes and charities, find out more about the initiatives we support!",social,2026-04-13,positive,0.9996
+"New season, new styles: shop our latest collection of outdoor clothing and gear now!",social,2026-04-13,positive,0.9988
+Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.,social,2026-04-13,negative,0.9353
+"Get ready to fall in love with our new range of homeware, made from all-natural ingredients.",social,2026-04-13,positive,0.9996
+"From statement pieces to everyday essentials, shop our curated selection of furniture.",social,2026-04-13,positive,0.9967
+"Stay connected with us on social media for the latest updates, promotions, and more!",social,2026-04-13,positive,0.9736
+Need help with an order or have a question? Our customer service team is here to assist you.,social,2026-04-13,negative,0.6553
+Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!,social,2026-04-13,positive,0.9917
+Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!,social,2026-04-13,positive,0.9993
+"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!",social,2026-04-13,positive,0.9994
+Get ahead of the game with our expert advice on,social,2026-04-13,positive,0.9991

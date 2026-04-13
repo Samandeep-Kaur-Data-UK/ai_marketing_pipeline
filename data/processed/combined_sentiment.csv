@@ -1,0 +1,1253 @@
+bert_label,bert_score,source,review_text
+positive,0.9984,reviews,
+negative,0.9995,reviews,
+positive,0.9998,reviews,
+positive,0.9992,reviews,
+positive,0.9987,reviews,
+positive,0.9993,reviews,
+positive,0.9994,reviews,
+positive,0.9999,reviews,
+positive,0.9985,reviews,
+positive,0.9995,reviews,
+positive,0.9362,reviews,
+negative,0.9992,reviews,
+negative,0.9899,reviews,
+positive,0.9999,reviews,
+positive,0.9976,reviews,
+positive,0.9993,reviews,
+positive,0.9689,reviews,
+positive,0.9999,reviews,
+negative,0.8231,reviews,
+positive,0.9976,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9996,reviews,
+positive,0.9991,reviews,
+positive,0.9971,reviews,
+negative,0.9962,reviews,
+negative,0.9988,reviews,
+negative,0.526,reviews,
+positive,0.9998,reviews,
+positive,0.9362,reviews,
+positive,0.9847,reviews,
+positive,0.9997,reviews,
+positive,0.8533,reviews,
+positive,0.9989,reviews,
+positive,0.9995,reviews,
+positive,0.9993,reviews,
+positive,0.999,reviews,
+negative,0.9934,reviews,
+positive,0.9969,reviews,
+positive,0.9998,reviews,
+positive,0.9979,reviews,
+positive,0.9964,reviews,
+positive,0.9997,reviews,
+positive,0.9993,reviews,
+positive,0.9912,reviews,
+negative,0.9997,reviews,
+positive,0.9979,reviews,
+positive,0.9993,reviews,
+positive,0.9998,reviews,
+negative,0.9991,reviews,
+negative,0.9995,reviews,
+positive,0.9831,reviews,
+negative,0.9991,reviews,
+negative,0.9988,reviews,
+positive,0.9994,reviews,
+positive,0.9997,reviews,
+positive,0.9941,reviews,
+positive,0.9999,reviews,
+positive,0.9999,reviews,
+positive,0.9998,reviews,
+negative,0.9984,reviews,
+negative,0.7945,reviews,
+negative,0.9997,reviews,
+positive,0.9967,reviews,
+positive,0.9935,reviews,
+positive,0.9998,reviews,
+positive,0.9693,reviews,
+negative,0.9937,reviews,
+negative,0.9429,reviews,
+negative,0.998,reviews,
+negative,0.5279,reviews,
+positive,0.9995,reviews,
+positive,0.9998,reviews,
+negative,0.9921,reviews,
+positive,0.9995,reviews,
+negative,0.9996,reviews,
+positive,0.9968,reviews,
+positive,0.9996,reviews,
+positive,0.9975,reviews,
+positive,0.999,reviews,
+positive,0.9999,reviews,
+positive,0.982,reviews,
+negative,0.9942,reviews,
+positive,0.9809,reviews,
+negative,0.9484,reviews,
+positive,0.9998,reviews,
+positive,0.9993,reviews,
+positive,0.9976,reviews,
+positive,0.9901,reviews,
+positive,0.9998,reviews,
+positive,0.9996,reviews,
+negative,0.9813,reviews,
+positive,0.9998,reviews,
+positive,0.9992,reviews,
+negative,0.9971,reviews,
+positive,0.9969,reviews,
+positive,0.996,reviews,
+positive,0.9941,reviews,
+negative,0.9767,reviews,
+negative,0.9952,reviews,
+negative,0.9945,reviews,
+negative,0.7783,reviews,
+negative,0.8499,reviews,
+positive,0.9841,reviews,
+positive,0.9997,reviews,
+positive,0.9996,reviews,
+negative,0.9995,reviews,
+positive,0.9972,reviews,
+positive,0.9955,reviews,
+positive,0.9991,reviews,
+positive,0.71,reviews,
+positive,0.9995,reviews,
+positive,0.5515,reviews,
+positive,0.9998,reviews,
+positive,0.9994,reviews,
+positive,0.9997,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+negative,0.9932,reviews,
+positive,0.9988,reviews,
+positive,0.999,reviews,
+negative,0.9968,reviews,
+positive,0.9922,reviews,
+positive,0.9947,reviews,
+positive,0.9931,reviews,
+negative,0.9831,reviews,
+positive,0.9996,reviews,
+positive,0.6164,reviews,
+positive,0.9998,reviews,
+negative,0.9964,reviews,
+positive,0.9995,reviews,
+negative,0.9976,reviews,
+positive,0.9817,reviews,
+positive,0.9975,reviews,
+positive,0.9995,reviews,
+negative,0.9944,reviews,
+positive,0.9991,reviews,
+positive,0.9998,reviews,
+positive,0.9995,reviews,
+positive,0.9944,reviews,
+negative,0.9989,reviews,
+negative,0.9656,reviews,
+positive,0.9977,reviews,
+positive,0.9997,reviews,
+negative,0.9997,reviews,
+positive,0.9997,reviews,
+negative,0.9987,reviews,
+negative,0.9962,reviews,
+positive,0.9978,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+positive,0.989,reviews,
+positive,0.9997,reviews,
+negative,0.9995,reviews,
+positive,0.9998,reviews,
+positive,0.9991,reviews,
+positive,0.9707,reviews,
+positive,0.9997,reviews,
+negative,0.9228,reviews,
+negative,0.9907,reviews,
+positive,0.9998,reviews,
+negative,0.9989,reviews,
+negative,0.9591,reviews,
+positive,0.9985,reviews,
+negative,0.969,reviews,
+positive,0.9993,reviews,
+positive,0.9998,reviews,
+negative,0.9996,reviews,
+negative,0.9993,reviews,
+negative,0.9988,reviews,
+negative,0.6861,reviews,
+positive,0.9994,reviews,
+positive,0.9997,reviews,
+positive,0.9992,reviews,
+positive,0.9456,reviews,
+positive,0.9994,reviews,
+positive,0.999,reviews,
+positive,0.9983,reviews,
+positive,0.9994,reviews,
+positive,0.9992,reviews,
+negative,0.9779,reviews,
+positive,0.9999,reviews,
+positive,0.9456,reviews,
+positive,0.9981,reviews,
+positive,0.9985,reviews,
+negative,0.999,reviews,
+positive,0.9902,reviews,
+positive,0.9711,reviews,
+positive,0.9949,reviews,
+positive,0.9995,reviews,
+positive,0.9999,reviews,
+positive,0.997,reviews,
+positive,0.9994,reviews,
+positive,0.9998,reviews,
+negative,0.9555,reviews,
+positive,0.9954,reviews,
+negative,0.99,reviews,
+negative,0.9965,reviews,
+positive,0.9998,reviews,
+positive,0.9989,reviews,
+negative,0.9996,reviews,
+positive,0.9996,reviews,
+positive,0.9308,reviews,
+negative,0.7713,reviews,
+positive,0.9935,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+positive,0.9999,reviews,
+negative,0.9633,reviews,
+positive,0.9887,reviews,
+positive,0.9818,reviews,
+negative,0.9846,reviews,
+negative,0.9996,reviews,
+negative,0.9995,reviews,
+positive,0.9985,reviews,
+positive,0.9956,reviews,
+negative,0.999,reviews,
+positive,0.905,reviews,
+positive,0.9988,reviews,
+positive,0.9995,reviews,
+positive,0.9986,reviews,
+positive,0.9988,reviews,
+positive,0.9997,reviews,
+positive,0.9999,reviews,
+negative,0.9993,reviews,
+negative,0.752,reviews,
+positive,0.999,reviews,
+positive,0.9974,reviews,
+negative,0.9888,reviews,
+negative,0.9989,reviews,
+positive,0.9998,reviews,
+positive,0.994,reviews,
+positive,0.9998,reviews,
+negative,0.995,reviews,
+positive,0.9998,reviews,
+negative,0.9997,reviews,
+positive,0.9984,reviews,
+negative,0.9874,reviews,
+positive,0.9998,reviews,
+positive,0.9956,reviews,
+positive,0.9991,reviews,
+positive,0.99,reviews,
+positive,0.9995,reviews,
+negative,0.9809,reviews,
+positive,0.9966,reviews,
+negative,0.8839,reviews,
+negative,0.9206,reviews,
+positive,0.9986,reviews,
+positive,0.9981,reviews,
+positive,0.9839,reviews,
+positive,0.9997,reviews,
+negative,0.9974,reviews,
+negative,0.9998,reviews,
+positive,0.9938,reviews,
+negative,0.9977,reviews,
+negative,0.995,reviews,
+positive,0.9999,reviews,
+negative,0.9998,reviews,
+positive,0.999,reviews,
+positive,0.9993,reviews,
+positive,0.9977,reviews,
+positive,0.9996,reviews,
+positive,0.9921,reviews,
+negative,0.9981,reviews,
+negative,0.5368,reviews,
+positive,0.9998,reviews,
+negative,0.9856,reviews,
+negative,0.9994,reviews,
+negative,0.9912,reviews,
+positive,0.9995,reviews,
+positive,0.9998,reviews,
+negative,0.7465,reviews,
+negative,0.8781,reviews,
+positive,0.9976,reviews,
+positive,0.9997,reviews,
+negative,0.9944,reviews,
+positive,0.9999,reviews,
+positive,0.9994,reviews,
+positive,0.9998,reviews,
+positive,0.9988,reviews,
+positive,0.7403,reviews,
+positive,0.9992,reviews,
+negative,0.9976,reviews,
+positive,0.9979,reviews,
+positive,0.9865,reviews,
+negative,0.9771,reviews,
+negative,0.6741,reviews,
+negative,0.9607,reviews,
+positive,0.9957,reviews,
+positive,0.9998,reviews,
+positive,0.9872,reviews,
+positive,0.9675,reviews,
+negative,0.9726,reviews,
+positive,0.9898,reviews,
+negative,0.9885,reviews,
+negative,0.9971,reviews,
+positive,0.9989,reviews,
+positive,0.9995,reviews,
+positive,0.9998,reviews,
+positive,0.9849,reviews,
+positive,0.9996,reviews,
+positive,0.9986,reviews,
+positive,0.995,reviews,
+positive,0.9996,reviews,
+positive,0.9959,reviews,
+negative,0.9991,reviews,
+negative,0.997,reviews,
+positive,0.9999,reviews,
+positive,0.9997,reviews,
+positive,0.9999,reviews,
+positive,0.9998,reviews,
+negative,0.9997,reviews,
+negative,0.9985,reviews,
+positive,0.996,reviews,
+positive,0.9995,reviews,
+positive,0.9972,reviews,
+positive,0.9998,reviews,
+negative,0.9807,reviews,
+positive,0.6149,reviews,
+positive,0.9994,reviews,
+positive,0.9997,reviews,
+positive,0.9991,reviews,
+positive,0.9678,reviews,
+negative,0.6967,reviews,
+positive,0.9988,reviews,
+positive,0.9996,reviews,
+negative,0.61,reviews,
+positive,0.9437,reviews,
+negative,0.98,reviews,
+positive,0.9728,reviews,
+positive,0.9997,reviews,
+negative,0.9987,reviews,
+positive,0.9991,reviews,
+positive,0.9999,reviews,
+negative,0.9998,reviews,
+negative,0.988,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9909,reviews,
+positive,0.9996,reviews,
+positive,0.9902,reviews,
+positive,0.9999,reviews,
+negative,0.9995,reviews,
+positive,0.9965,reviews,
+positive,0.9068,reviews,
+negative,0.9863,reviews,
+positive,0.9993,reviews,
+negative,0.7013,reviews,
+positive,0.9994,reviews,
+negative,0.995,reviews,
+positive,0.9999,reviews,
+positive,0.9998,reviews,
+negative,0.8649,reviews,
+negative,0.9029,reviews,
+positive,0.9997,reviews,
+positive,0.9995,reviews,
+positive,0.9871,reviews,
+positive,0.9998,reviews,
+positive,0.9996,reviews,
+positive,0.9998,reviews,
+positive,0.9728,reviews,
+negative,0.9933,reviews,
+positive,0.9991,reviews,
+positive,0.9986,reviews,
+positive,0.9998,reviews,
+positive,0.9945,reviews,
+positive,0.9837,reviews,
+positive,0.9716,reviews,
+negative,0.9854,reviews,
+positive,0.9992,reviews,
+positive,0.9974,reviews,
+positive,0.9994,reviews,
+positive,0.9329,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9994,reviews,
+positive,0.9998,reviews,
+positive,0.9929,reviews,
+positive,0.9998,reviews,
+positive,0.9999,reviews,
+negative,0.976,reviews,
+negative,0.9966,reviews,
+positive,0.9998,reviews,
+positive,0.9991,reviews,
+positive,0.9989,reviews,
+positive,0.9946,reviews,
+positive,0.9977,reviews,
+negative,0.9903,reviews,
+positive,0.9997,reviews,
+positive,0.9907,reviews,
+negative,0.9485,reviews,
+positive,0.9993,reviews,
+positive,0.9997,reviews,
+negative,0.9975,reviews,
+positive,0.9904,reviews,
+positive,0.9999,reviews,
+positive,0.9996,reviews,
+positive,0.9991,reviews,
+positive,0.9891,reviews,
+positive,0.9996,reviews,
+negative,0.9991,reviews,
+negative,0.9963,reviews,
+negative,0.9998,reviews,
+negative,0.5701,reviews,
+positive,0.9989,reviews,
+positive,0.9998,reviews,
+negative,0.9694,reviews,
+positive,0.9997,reviews,
+positive,0.9999,reviews,
+negative,0.9876,reviews,
+positive,0.9894,reviews,
+positive,0.7886,reviews,
+positive,0.9799,reviews,
+positive,0.9982,reviews,
+positive,0.9832,reviews,
+positive,0.9998,reviews,
+positive,0.9961,reviews,
+negative,0.9997,reviews,
+negative,0.9905,reviews,
+negative,0.9901,reviews,
+positive,0.9998,reviews,
+positive,0.9956,reviews,
+negative,0.9994,reviews,
+positive,0.9997,reviews,
+positive,0.9993,reviews,
+positive,0.9997,reviews,
+positive,0.7628,reviews,
+positive,0.9997,reviews,
+positive,0.6296,reviews,
+positive,0.9998,reviews,
+negative,0.9224,reviews,
+positive,0.996,reviews,
+negative,0.9526,reviews,
+positive,0.9933,reviews,
+positive,0.9974,reviews,
+positive,0.9998,reviews,
+positive,0.9944,reviews,
+positive,0.9991,reviews,
+positive,0.9998,reviews,
+negative,0.9762,reviews,
+negative,0.9807,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+negative,0.9578,reviews,
+positive,0.9761,reviews,
+negative,0.9966,reviews,
+positive,0.9968,reviews,
+positive,0.9998,reviews,
+positive,0.9952,reviews,
+positive,0.9998,reviews,
+positive,0.99,reviews,
+positive,0.9983,reviews,
+positive,0.9999,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9992,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+negative,0.9962,reviews,
+positive,0.9976,reviews,
+negative,0.9954,reviews,
+negative,0.9873,reviews,
+positive,0.9931,reviews,
+positive,0.6788,reviews,
+positive,0.9998,reviews,
+positive,0.999,reviews,
+positive,0.9985,reviews,
+positive,0.9962,reviews,
+negative,0.6947,reviews,
+negative,0.7011,reviews,
+positive,0.9767,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9993,reviews,
+positive,0.9999,reviews,
+positive,0.9996,reviews,
+positive,0.998,reviews,
+positive,0.9997,reviews,
+positive,0.9992,reviews,
+positive,0.9998,reviews,
+negative,0.9587,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+negative,0.9741,reviews,
+positive,0.9966,reviews,
+positive,0.9865,reviews,
+positive,0.9998,reviews,
+negative,0.9996,reviews,
+negative,0.7682,reviews,
+positive,0.9998,reviews,
+negative,0.8954,reviews,
+positive,0.9988,reviews,
+positive,0.9996,reviews,
+negative,0.9975,reviews,
+positive,0.9996,reviews,
+positive,0.9999,reviews,
+positive,0.9998,reviews,
+positive,0.9994,reviews,
+positive,0.993,reviews,
+positive,0.9998,reviews,
+negative,0.9395,reviews,
+positive,0.8883,reviews,
+positive,0.9997,reviews,
+negative,0.9831,reviews,
+positive,0.9966,reviews,
+positive,0.9996,reviews,
+positive,0.9995,reviews,
+negative,0.9991,reviews,
+negative,0.9995,reviews,
+negative,0.9981,reviews,
+positive,0.6657,reviews,
+negative,0.9761,reviews,
+negative,0.9936,reviews,
+positive,0.9954,reviews,
+positive,0.9958,reviews,
+positive,0.9968,reviews,
+negative,0.9952,reviews,
+positive,0.9995,reviews,
+positive,0.9997,reviews,
+negative,0.9992,reviews,
+positive,0.999,reviews,
+negative,0.7525,reviews,
+positive,0.999,reviews,
+positive,0.9983,reviews,
+positive,0.9998,reviews,
+positive,0.9944,reviews,
+positive,0.9999,reviews,
+positive,0.9309,reviews,
+negative,0.976,reviews,
+positive,0.9994,reviews,
+positive,0.9974,reviews,
+positive,0.9213,reviews,
+negative,0.9969,reviews,
+negative,0.9997,reviews,
+negative,0.9977,reviews,
+negative,0.9992,reviews,
+positive,0.9991,reviews,
+negative,0.9993,reviews,
+negative,0.9998,reviews,
+positive,0.7983,reviews,
+negative,0.9713,reviews,
+negative,0.9964,reviews,
+positive,0.7342,reviews,
+positive,0.9855,reviews,
+negative,0.9997,reviews,
+negative,0.999,reviews,
+negative,0.9986,reviews,
+negative,0.9989,reviews,
+negative,0.9973,reviews,
+positive,0.8199,reviews,
+negative,0.9979,reviews,
+negative,0.9985,reviews,
+positive,0.999,reviews,
+negative,0.7426,reviews,
+negative,0.9963,reviews,
+negative,0.9983,reviews,
+negative,0.9989,reviews,
+negative,0.9975,reviews,
+negative,0.9994,reviews,
+positive,0.9997,reviews,
+negative,0.9996,reviews,
+negative,0.9985,reviews,
+negative,0.9993,reviews,
+positive,0.9986,reviews,
+positive,0.9991,reviews,
+positive,0.9998,reviews,
+negative,0.9995,reviews,
+negative,0.9725,reviews,
+negative,0.998,reviews,
+positive,0.7295,reviews,
+positive,0.9998,reviews,
+positive,0.9938,reviews,
+positive,0.9953,reviews,
+negative,0.9892,reviews,
+positive,0.9985,reviews,
+positive,0.9998,reviews,
+positive,0.9899,reviews,
+positive,0.9996,reviews,
+positive,0.9999,reviews,
+positive,0.6923,reviews,
+negative,0.9745,reviews,
+positive,0.9989,reviews,
+negative,0.989,reviews,
+positive,0.9985,reviews,
+positive,0.9976,reviews,
+positive,0.9811,reviews,
+positive,0.9956,reviews,
+negative,0.9952,reviews,
+positive,0.9997,reviews,
+positive,0.9989,reviews,
+positive,0.9998,reviews,
+positive,0.9927,reviews,
+positive,0.929,reviews,
+negative,0.9949,reviews,
+negative,0.994,reviews,
+positive,0.995,reviews,
+positive,0.9969,reviews,
+positive,0.972,reviews,
+positive,0.9882,reviews,
+positive,0.9998,reviews,
+positive,0.9856,reviews,
+positive,0.9997,reviews,
+positive,0.9983,reviews,
+positive,0.9985,reviews,
+positive,0.9991,reviews,
+positive,0.9899,reviews,
+positive,0.9997,reviews,
+positive,0.9994,reviews,
+negative,0.9577,reviews,
+positive,0.9993,reviews,
+positive,0.9997,reviews,
+positive,0.9997,reviews,
+positive,0.9983,reviews,
+positive,0.9895,reviews,
+positive,0.9985,reviews,
+positive,0.9974,reviews,
+positive,0.9957,reviews,
+positive,0.999,reviews,
+negative,0.9996,reviews,
+positive,0.9934,reviews,
+negative,0.9997,reviews,
+negative,0.9998,reviews,
+positive,0.9992,reviews,
+negative,0.9964,reviews,
+positive,0.9983,reviews,
+positive,0.9998,reviews,
+positive,0.9851,reviews,
+positive,0.9998,reviews,
+negative,0.9926,reviews,
+positive,0.996,reviews,
+positive,0.9942,reviews,
+positive,0.999,reviews,
+negative,0.9445,reviews,
+positive,0.9954,reviews,
+negative,0.8457,reviews,
+negative,0.9951,reviews,
+negative,0.9942,reviews,
+positive,0.9996,reviews,
+positive,0.7976,reviews,
+positive,0.9995,reviews,
+positive,0.9998,reviews,
+positive,0.9993,reviews,
+positive,0.9987,reviews,
+positive,0.9995,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9994,reviews,
+positive,0.997,reviews,
+positive,0.9994,reviews,
+positive,0.9935,reviews,
+positive,0.9998,reviews,
+positive,0.7128,reviews,
+negative,0.9874,reviews,
+positive,0.9467,reviews,
+positive,0.9977,reviews,
+positive,0.9999,reviews,
+positive,0.9998,reviews,
+positive,0.9984,reviews,
+positive,0.9998,reviews,
+negative,0.9857,reviews,
+positive,0.9963,reviews,
+positive,0.9998,reviews,
+negative,0.9705,reviews,
+negative,0.8995,reviews,
+positive,0.9708,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.961,reviews,
+positive,0.9998,reviews,
+positive,0.9999,reviews,
+negative,0.9565,reviews,
+negative,0.9996,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+positive,0.9964,reviews,
+positive,0.9994,reviews,
+positive,0.9991,reviews,
+positive,0.9995,reviews,
+positive,0.9994,reviews,
+positive,0.9998,reviews,
+positive,0.9995,reviews,
+negative,0.9975,reviews,
+negative,0.9996,reviews,
+positive,0.9999,reviews,
+positive,0.9996,reviews,
+positive,0.9989,reviews,
+positive,0.9999,reviews,
+positive,0.9994,reviews,
+positive,0.9996,reviews,
+negative,0.984,reviews,
+positive,0.9989,reviews,
+positive,0.9986,reviews,
+positive,0.9993,reviews,
+negative,0.9439,reviews,
+positive,0.9994,reviews,
+negative,0.6655,reviews,
+positive,0.9997,reviews,
+positive,0.9987,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9993,reviews,
+positive,0.9998,reviews,
+positive,0.9983,reviews,
+positive,0.9999,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+positive,0.9999,reviews,
+positive,0.9999,reviews,
+negative,0.9867,reviews,
+positive,0.9996,reviews,
+negative,0.9792,reviews,
+positive,0.9998,reviews,
+negative,0.7193,reviews,
+positive,0.9996,reviews,
+negative,0.9984,reviews,
+negative,0.998,reviews,
+negative,0.9998,reviews,
+positive,0.8417,reviews,
+negative,0.9987,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.762,reviews,
+positive,0.9984,reviews,
+negative,0.9366,reviews,
+negative,0.9817,reviews,
+positive,0.9998,reviews,
+negative,0.9993,reviews,
+positive,0.9995,reviews,
+positive,0.9979,reviews,
+positive,0.9983,reviews,
+positive,0.9997,reviews,
+negative,0.9993,reviews,
+positive,0.9999,reviews,
+negative,0.6849,reviews,
+negative,0.9945,reviews,
+negative,0.9996,reviews,
+negative,0.9986,reviews,
+negative,0.9989,reviews,
+negative,0.9998,reviews,
+negative,0.9992,reviews,
+negative,0.9995,reviews,
+positive,0.9961,reviews,
+positive,0.9994,reviews,
+negative,0.9391,reviews,
+negative,0.9675,reviews,
+negative,0.9958,reviews,
+positive,0.6191,reviews,
+negative,0.9984,reviews,
+positive,0.9921,reviews,
+negative,0.9998,reviews,
+positive,0.996,reviews,
+positive,0.9995,reviews,
+positive,0.9994,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+negative,0.9987,reviews,
+negative,0.9432,reviews,
+negative,0.992,reviews,
+positive,0.9997,reviews,
+negative,0.8387,reviews,
+positive,0.9986,reviews,
+positive,0.9916,reviews,
+negative,0.9308,reviews,
+positive,0.9998,reviews,
+positive,0.9978,reviews,
+negative,0.9996,reviews,
+positive,0.9993,reviews,
+positive,0.9985,reviews,
+positive,0.9996,reviews,
+positive,0.9999,reviews,
+negative,0.9993,reviews,
+positive,0.994,reviews,
+negative,0.9995,reviews,
+positive,0.9995,reviews,
+positive,0.9913,reviews,
+positive,0.9961,reviews,
+negative,0.9868,reviews,
+negative,0.999,reviews,
+negative,0.9909,reviews,
+positive,0.9317,reviews,
+negative,0.9964,reviews,
+negative,0.9924,reviews,
+positive,0.9997,reviews,
+positive,0.9735,reviews,
+negative,0.9997,reviews,
+negative,0.9985,reviews,
+negative,0.9173,reviews,
+negative,0.9973,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9574,reviews,
+negative,0.9936,reviews,
+positive,0.9999,reviews,
+positive,0.9996,reviews,
+negative,0.9734,reviews,
+positive,0.9986,reviews,
+negative,0.9993,reviews,
+negative,0.9889,reviews,
+positive,0.9998,reviews,
+positive,0.9999,reviews,
+positive,0.9995,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.9996,reviews,
+positive,0.9999,reviews,
+positive,0.9997,reviews,
+negative,0.9995,reviews,
+negative,0.9972,reviews,
+positive,0.9995,reviews,
+positive,0.9986,reviews,
+positive,0.999,reviews,
+negative,0.9981,reviews,
+positive,0.9654,reviews,
+positive,0.7305,reviews,
+positive,0.9998,reviews,
+positive,0.9936,reviews,
+negative,0.6885,reviews,
+positive,0.9998,reviews,
+positive,0.9996,reviews,
+positive,0.9992,reviews,
+positive,0.9965,reviews,
+positive,0.9855,reviews,
+positive,0.9997,reviews,
+positive,0.9998,reviews,
+negative,0.9844,reviews,
+negative,0.999,reviews,
+positive,0.9943,reviews,
+positive,0.9993,reviews,
+positive,0.9869,reviews,
+negative,0.936,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.997,reviews,
+positive,0.9996,reviews,
+positive,0.9989,reviews,
+positive,0.9996,reviews,
+positive,0.9987,reviews,
+positive,0.9998,reviews,
+positive,0.9985,reviews,
+negative,0.9995,reviews,
+positive,0.9995,reviews,
+negative,0.9993,reviews,
+positive,0.9998,reviews,
+positive,0.9355,reviews,
+negative,0.9586,reviews,
+positive,0.9979,reviews,
+positive,0.9998,reviews,
+positive,0.9997,reviews,
+positive,0.5095,reviews,
+positive,0.9941,reviews,
+positive,0.999,reviews,
+positive,0.9999,reviews,
+positive,0.9883,reviews,
+negative,0.9944,reviews,
+positive,0.9994,reviews,
+negative,0.9969,reviews,
+positive,0.9999,reviews,
+positive,0.9984,reviews,
+positive,0.9953,reviews,
+positive,0.9982,reviews,
+negative,0.9997,reviews,
+negative,0.9797,reviews,
+positive,0.8465,reviews,
+negative,0.9755,reviews,
+negative,0.9872,reviews,
+negative,0.9981,reviews,
+positive,0.9798,reviews,
+negative,0.9973,reviews,
+negative,0.6755,reviews,
+positive,0.9998,reviews,
+positive,0.9952,reviews,
+negative,0.9994,reviews,
+negative,0.9954,reviews,
+positive,0.9927,reviews,
+positive,0.9976,reviews,
+positive,0.9998,reviews,
+negative,0.9922,reviews,
+positive,0.9919,reviews,
+negative,0.6782,reviews,
+negative,0.9799,reviews,
+positive,0.9997,reviews,
+positive,0.9991,reviews,
+positive,0.9919,reviews,
+positive,0.9841,reviews,
+negative,0.9997,reviews,
+positive,0.9985,reviews,
+positive,0.9996,reviews,
+positive,0.9999,reviews,
+positive,0.9772,reviews,
+positive,0.9557,reviews,
+positive,0.9999,reviews,
+negative,0.982,reviews,
+positive,0.6909,reviews,
+positive,0.9977,reviews,
+positive,0.9988,reviews,
+negative,0.9996,reviews,
+positive,0.9995,reviews,
+positive,0.9994,reviews,
+positive,0.9959,reviews,
+negative,0.9988,reviews,
+positive,0.9199,reviews,
+positive,0.9992,reviews,
+positive,0.9921,reviews,
+negative,0.9996,reviews,
+positive,0.9973,reviews,
+positive,0.7378,reviews,
+positive,0.9998,reviews,
+negative,0.9997,reviews,
+negative,0.9995,reviews,
+positive,0.9947,reviews,
+positive,0.9995,reviews,
+positive,0.9991,reviews,
+positive,0.9997,reviews,
+negative,0.9992,reviews,
+positive,0.6328,reviews,
+negative,0.9782,reviews,
+positive,0.9971,reviews,
+positive,0.9979,reviews,
+negative,0.9997,reviews,
+positive,0.9547,reviews,
+positive,0.9997,reviews,
+positive,0.9977,reviews,
+positive,0.9992,reviews,
+positive,0.9999,reviews,
+positive,0.9992,reviews,
+positive,0.9966,reviews,
+positive,0.9987,reviews,
+positive,0.9998,reviews,
+negative,0.8071,reviews,
+negative,0.9519,reviews,
+positive,0.9999,reviews,
+positive,0.9989,reviews,
+positive,0.9997,reviews,
+negative,0.9997,reviews,
+positive,0.8399,reviews,
+positive,0.9998,reviews,
+negative,0.9972,reviews,
+negative,0.9726,reviews,
+positive,0.9837,reviews,
+positive,0.9914,reviews,
+positive,0.9898,reviews,
+positive,0.9997,reviews,
+positive,0.9985,reviews,
+positive,0.9999,reviews,
+positive,0.9999,reviews,
+positive,0.9996,reviews,
+positive,0.9995,reviews,
+negative,0.9952,reviews,
+positive,0.9996,reviews,
+positive,0.9998,reviews,
+negative,0.9607,reviews,
+negative,0.9974,reviews,
+negative,0.9929,reviews,
+positive,0.9997,reviews,
+negative,0.9979,reviews,
+negative,0.9952,reviews,
+negative,0.9897,reviews,
+positive,0.999,reviews,
+positive,0.9986,reviews,
+negative,0.7857,reviews,
+negative,0.9994,reviews,
+positive,0.9996,reviews,
+positive,0.9988,reviews,
+positive,0.9994,reviews,
+positive,0.9996,reviews,
+positive,0.9993,reviews,
+positive,0.8669,reviews,
+positive,0.9754,reviews,
+positive,0.9961,reviews,
+positive,0.9987,reviews,
+positive,0.97,reviews,
+positive,0.9965,reviews,
+positive,0.9997,reviews,
+positive,0.9999,reviews,
+positive,0.9995,reviews,
+positive,0.9994,reviews,
+positive,0.9998,reviews,
+positive,0.9994,reviews,
+negative,0.6087,reviews,
+positive,0.9993,reviews,
+positive,0.9998,reviews,
+positive,0.9995,reviews,
+positive,0.9997,reviews,
+positive,0.994,reviews,
+positive,0.9998,reviews,
+positive,0.9998,reviews,
+positive,0.8895,reviews,
+positive,0.999,reviews,
+positive,0.9998,reviews,
+positive,0.8037,reviews,
+positive,0.9995,reviews,
+negative,0.9975,reviews,
+negative,0.9975,reviews,
+positive,0.9997,social,"Welcome to our UK online shop, where you can find the best deals on everything from home decor to outdoor gear!"
+positive,0.9993,social,Our store is open 7 days a week and ships worldwide.
+positive,0.9954,social,"We have over 10,000 products in stock, all sourced from top brands and suppliers."
+positive,0.9994,social,"From fashion to food, we've got you covered with our vast selection of items."
+negative,0.995,social,Our prices are competitive and our customer service is second to none.
+negative,0.9014,social,Use code WELCOME15 at checkout to receive 15% off your first order.
+positive,0.9969,social,"Shop small, shop local: by shopping with us, you're supporting British businesses."
+positive,0.9975,social,"Follow us for exclusive deals, promotions, and giveaways!"
+positive,0.9987,social,New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!
+positive,0.9997,social,"Get ready to fall in love with our new range of candles, made from all-natural ingredients."
+positive,0.9994,social,"Our team is always here to help, so don't hesitate to get in touch if you have any questions."
+positive,0.9999,social,Want to know the story behind our store? We're passionate about sharing the stories of the brands we work with!
+positive,0.9997,social,"From bespoke gifts to personalized accessories, make it special with our unique items."
+positive,0.9973,social,Stay ahead of the game with our latest collection of outdoor gear and equipment.
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9994,social,Join our loyalty scheme and earn points on every purchase you make.
+positive,0.9999,social,We're proud to be a part of the UK's thriving online shopping scene.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,"New season, new styles: our latest fashion drops are live now and they're looking fabulous!"
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9988,social,Get the inside scoop on the latest trends with our expert advice and style tips.
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9991,social,We're committed to sustainability and reducing our carbon footprint wherever possible.
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+positive,0.9968,social,"Shop 'til you drop in our epic sale event, happening now!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9537,social,Our latest collection of beauty products is now live - get ready to pamper yourself!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.8588,social,Ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9997,social,"From bespoke gifts to personalized accessories, make it special with our unique items."
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9996,social,Stay ahead of the curve with our expert advice on the latest beauty trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,We're proud to be a part of the UK's thriving online shopping scene - thanks for your support!
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9981,social,New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9994,social,Join our loyalty scheme and earn points on every purchase you make.
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9998,social,Our latest collection of fashion accessories is now live - get ready to elevate your style!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.8588,social,Ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9997,social,"Get ready to fall in love with our new range of candles, made from all-natural ingredients."
+positive,0.9998,social,We're proud to be a part of the UK's thriving online shopping scene - thanks for your support!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+positive,0.9984,social,New arrival alert! Our latest shipment of spring clothing has landed and it's on sale now!
+positive,0.9997,social,Get ahead of the game with our expert advice on the latest beauty trends.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9987,social,New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9997,social,"Get ready to fall in love with our new range of candles, made from all-natural ingredients."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9997,social,Get ready to elevate your style with our latest collection of fashion accessories.
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9984,social,New arrival alert! Our latest shipment of autumn clothing has landed and it's on sale now!
+positive,0.9997,social,Get ahead of the game with our expert advice on the latest beauty trends.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9981,social,New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9987,social,New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9981,social,New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9984,social,New arrival alert! Our latest shipment of autumn clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9981,social,New arrival alert! Our latest shipment of winter clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9995,social,Get ahead of the game with our expert advice on the latest fashion trends.
+positive,0.9987,social,New arrival alert! Our latest shipment of summer clothing has landed and it's on sale now!
+positive,0.9998,social,Discover the art of slow living with our range of mindfulness and wellness goodies.
+negative,0.968,social,Want to learn more about our store and its mission? Take a look at this video clip from our launch day!
+positive,0.9985,social,"From statement pieces to everyday essentials, shop our curated selection of gifts."
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Stay ahead of the curve with our expert advice on the latest fashion trends.
+positive,0.9998,social,Discover the best-selling products in our shop right now and get ready to treat yourself!
+positive,0.9998,social,Our customer reviews say it all - we've got an impressive 5-star rating!
+positive,0.9459,social,Get ready for a challenge? Try your hand at one of our free online workshops and get creative!
+positive,0.9877,social,"From statement pieces to everyday essentials, shop our curated selection of homeware."
+positive,0.9996,social,"We're passionate about supporting local causes and charities, find out more about the initiatives we support!"
+positive,0.9988,social,"New season, new styles: shop our latest collection of outdoor clothing and gear now!"
+negative,0.9353,social,Looking for a unique gift idea? We've got you covered with our one-of-a-kind items.
+positive,0.9996,social,"Get ready to fall in love with our new range of homeware, made from all-natural ingredients."
+positive,0.9967,social,"From statement pieces to everyday essentials, shop our curated selection of furniture."
+positive,0.9736,social,"Stay connected with us on social media for the latest updates, promotions, and more!"
+negative,0.6553,social,Need help with an order or have a question? Our customer service team is here to assist you.
+positive,0.9917,social,Looking for inspiration? Follow us for behind-the-scenes peeks into our workshop and design process!
+positive,0.9993,social,Our customer reviews say it all - we've got an impressive 5-star rating on Trustpilot too!
+positive,0.9994,social,"Ready for a treat? We've got a surprise giveaway coming soon, stay tuned for details!"
+positive,0.9991,social,Get ahead of the game with our expert advice on
