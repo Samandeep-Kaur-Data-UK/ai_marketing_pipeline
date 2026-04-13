@@ -1,131 +1,111 @@
 import pandas as pd
 import argparse
-from pathlib import Path
-from collections import Counter
-import re
-from datetime import date
-import ollama
-
-def extract_themes(texts: pd.Series, top_n: int = 5) -> list[tuple[str, int]]:
-    """Extract top N keyword themes from review text."""
-    stopwords = {
-        "the","and","is","it","this","a","to","of","i","was","for",
-        "in","my","that","have","not","but","with","on","so","they",
-        "be","are","has","an","at","from","or","we","as","very","just",
-        "its","if","can","all","do","get","had","he","she","you","your",
-        "these","them","like","their","there","been","more","also","what",
-        "would","could","when","than","then","some","out","about","will",
-        "one","up","no","which","were","our","who","after","only","other",
-        "really","even","made","make","still","came","into","over","time",
-        "use","used","much","too","good","well","back","got","way","did"
-    }
-    words = []
-    for text in texts.dropna():
-        tokens = re.findall(r'\b[a-z]{4,}\b', text.lower())
-        words.extend([t for t in tokens if t not in stopwords])
-    return Counter(words).most_common(top_n)
+import os
+import requests
+from datetime import datetime
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-def generate_report(input_path: str, report_date: str) -> None:
-    df = pd.read_csv(input_path)
+def get_top_themes(df, label_col, label_val, text_col, n=5):
+    subset = df[df[label_col] == label_val][text_col].dropna()
+    if len(subset) == 0:
+        return []
+    tfidf = TfidfVectorizer(max_features=20, stop_words='english')
+    tfidf.fit(subset)
+    scores = zip(tfidf.get_feature_names_out(), tfidf.idf_)
+    sorted_scores = sorted(scores, key=lambda x: x[1])
+    return [word for word, _ in sorted_scores[:n]]
+
+
+def generate_ai_summary(stats: dict) -> str:
+    prompt = f"""You are a marketing analyst. Write a 3-paragraph executive summary based on these sentiment stats:
+- Total Reviews: {stats['total']}
+- Positive: {stats['positive_pct']}%
+- Negative: {stats['negative_pct']}%
+- Top negative themes: {stats['negative_themes']}
+- Top positive themes: {stats['positive_themes']}
+
+Cover: sentiment health, business concerns, and 2 actionable recommendations."""
+
+    response = requests.post(
+        "http://localhost:11434/api/generate",
+        json={"model": "llama3.2", "prompt": prompt, "stream": False}
+    )
+    return response.json()["response"].strip()
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', default=datetime.today().strftime('%Y-%m-%d'))
+    args = parser.parse_args()
+
+    df = pd.read_csv("data/processed/reviews_bert.csv")
 
     total = len(df)
-    sentiment_counts = df['bert_label'].value_counts()
-    sentiment_pct = (sentiment_counts / total * 100).round(1)
+    positive = (df['bert_label'].str.upper() == 'POSITIVE').sum()
+    negative = (df['bert_label'].str.upper() == 'NEGATIVE').sum()
     avg_confidence = df['bert_score'].mean()
-    agreement_rate = df['agreement'].mean()
 
-    positive_reviews = df[df['bert_label'] == 'POSITIVE']['Text']
-    negative_reviews = df[df['bert_label'] == 'NEGATIVE']['Text']
+    positive_pct = round(positive / total * 100, 1)
+    negative_pct = round(negative / total * 100, 1)
 
-    top_positive = extract_themes(positive_reviews)
-    top_negative = extract_themes(negative_reviews)
+    pos_themes = get_top_themes(df, 'bert_label', 'POSITIVE', 'Text')
+    neg_themes = get_top_themes(df, 'bert_label', 'NEGATIVE', 'Text')
 
-    lines = [
-        "=" * 60,
-        f"  SENTIMENT ANALYSIS REPORT - {report_date}",
-        "=" * 60,
-        "",
-        "OVERVIEW",
-        "-" * 40,
-        f"Total Reviews Analysed : {total:,}",
-        f"Avg BERT Confidence    : {avg_confidence:.4f}",
-        f"VADER/BERT Agreement   : {agreement_rate:.1%}",
-        "",
-        "SENTIMENT BREAKDOWN",
-        "-" * 40,
-    ]
-    for label, pct in sentiment_pct.items():
-        count = sentiment_counts[label]
-        lines.append(f"  {label:<12}: {count:>5} reviews  ({pct}%)")
+    report = f"""
+============================================================
+  SENTIMENT ANALYSIS REPORT - {args.date}
+============================================================
 
-    lines += [
-        "",
-        "TOP 5 POSITIVE THEMES",
-        "-" * 40,
-    ]
-    for i, (word, freq) in enumerate(top_positive, 1):
-        lines.append(f"  {i}. {word:<20} (mentioned {freq} times)")
+OVERVIEW
+----------------------------------------
+Total Reviews Analysed : {total:,}
+Avg BERT Confidence    : {avg_confidence:.4f}
 
-    lines += [
-        "",
-        "TOP 5 NEGATIVE THEMES",
-        "-" * 40,
-    ]
-    for i, (word, freq) in enumerate(top_negative, 1):
-        lines.append(f"  {i}. {word:<20} (mentioned {freq} times)")
+SENTIMENT BREAKDOWN
+----------------------------------------
+  POSITIVE    : {positive:>5} reviews  ({positive_pct}%)
+  NEGATIVE    : {negative:>5} reviews  ({negative_pct}%)
 
-    # --- AI Narrative ---
-    prompt = f"""You are a senior marketing analyst writing for a non-technical stakeholder.
+TOP 5 POSITIVE THEMES
+----------------------------------------
+{chr(10).join(f'  {i+1}. {t}' for i, t in enumerate(pos_themes))}
 
-Sentiment results:
-- Total reviews: {total:,}
-- Positive: {sentiment_pct.get('POSITIVE', 0)}%
-- Negative: {sentiment_pct.get('NEGATIVE', 0)}%
-- Neutral: {sentiment_pct.get('NEUTRAL', 0)}%
-- Avg confidence: {avg_confidence:.2f}
-- Top negative themes: {', '.join([w for w, _ in top_negative])}
-- Top positive themes: {', '.join([w for w, _ in top_positive])}
+TOP 5 NEGATIVE THEMES
+----------------------------------------
+{chr(10).join(f'  {i+1}. {t}' for i, t in enumerate(neg_themes))}
 
-Write exactly 3 paragraphs:
-1. Overall sentiment health and what it signals.
-2. Key concerns from negative themes and business implications.
-3. Two specific actionable recommendations for the marketing team.
+============================================================
+  AI EXECUTIVE SUMMARY
+============================================================
+"""
 
-Plain business English. No bullet points."""
+    print(report)
 
-    response = ollama.chat('llama3.2', messages=[{'role': 'user', 'content': prompt}])
-    narrative = response['message']['content']
+    stats = {
+        'total': total,
+        'positive_pct': positive_pct,
+        'negative_pct': negative_pct,
+        'positive_themes': pos_themes,
+        'negative_themes': neg_themes
+    }
 
-    lines += [
-        "",
-        "=" * 60,
-        "  AI EXECUTIVE SUMMARY",
-        "=" * 60,
-        "",
-        narrative,
-        "",
-        "=" * 60,
-        "  END OF REPORT",
-        "=" * 60,
-    ]
+    print("Generating AI summary via Ollama...")
+    ai_summary = generate_ai_summary(stats)
+    report += ai_summary
+    report += "\n\n============================================================\n  END OF REPORT\n============================================================\n"
 
-    report_text = "\n".join(lines)
+    print(ai_summary)
+    print("\n============================================================")
+    print("  END OF REPORT")
+    print("============================================================")
 
-    output_path = Path("reports") / f"sentiment_report_{report_date}.txt"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(report_text)
+    output_path = f"reports/sentiment_report_{args.date}.txt"
+    with open(output_path, 'w') as f:
+        f.write(report)
 
-    print(report_text)
     print(f"\nReport saved to: {output_path}")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate Sentiment Report")
-    parser.add_argument("--date", type=str, default=str(date.today()),
-                        help="Report date (YYYY-MM-DD). Defaults to today.")
-    parser.add_argument("--input", type=str, default="data/processed/reviews_bert.csv",
-                        help="Path to reviews_bert.csv")
-    args = parser.parse_args()
-
-    generate_report(args.input, args.date)
+    main()
