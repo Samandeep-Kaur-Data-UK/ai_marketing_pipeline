@@ -30,8 +30,12 @@ and surfaces actionable insights for marketing teams.
 | 02_transformer_sentiment.py | BERT deep learning sentiment analysis |
 | 03_accuracy_comparison.py | Compare VADER vs BERT accuracy |
 | 03_generate_report.py | Automated sentiment report generator |
+| 04_generate_social_posts.py | Generate 500 UK social posts for FreshBasket UK |
 | 04_topic_extraction.py | TF-IDF topic extraction from negative reviews |
+| 05_sentiment_social.py | Run BERT sentiment on simulated social posts |
 | 05_sentiment_trend.py | Monthly positive sentiment trend chart |
+| 06_combine_sources.py | Combine review and social sentiment outputs |
+| run_pipeline.sh | Run the full review + social sentiment pipeline |
 
 ## Power BI Dashboard
 **File:** `powerbi/Project2_AI_Sentiment_Dashboard_BERT_Day53_v1.pbix`
@@ -233,15 +237,18 @@ suggesting seasonal variation in customer satisfaction.
 | 3 | 02_transformer_sentiment.py | PASSED |
 | 4 | 03_generate_report.py | PASSED |
 | 5 | 05_sentiment_trend.py | PASSED |
+| 6 | 04_generate_social_posts.py | PASSED |
+| 7 | 05_sentiment_social.py | PASSED |
+| 8 | 06_combine_sources.py | PASSED |
 
-**Finding:** All 5 pipeline steps run end-to-end without intervention via a single bash command. In a commercial setting this would be scheduled as a daily cron job to automatically refresh sentiment insights from new reviews.
+**Finding:** All 8 pipeline steps now run end-to-end without intervention via a single bash command, including the Day 56 AI narrative and Day 57 multi-source sentiment outputs. In a commercial setting this would be scheduled as a daily cron job to automatically refresh sentiment insights from both reviews and social signals.
 
 ---
 
 ### Day 55 - GitHub Documentation
 
 | Item | Detail |
-|---|---|
+|---|---|   
 | requirements.txt | 35 packages captured |
 | Setup Instructions | Added to README |
 | Screenshot renamed | Project2_AI_Sentiment_Dashboard_BERT_Day53_v1.png |
@@ -255,7 +262,7 @@ suggesting seasonal variation in customer satisfaction.
 
 **Script:** `scripts/03_generate_report.py` (extended)
 **Model:** llama3.2 via Ollama (runs locally on Mac, zero cost)
-**Output:** `reports/sentiment_report_2026-04-12.txt`
+**Output:** `reports/sentiment_report_2026-04-16.txt`
 
 | Item | Detail |
 |---|---|
@@ -269,27 +276,25 @@ suggesting seasonal variation in customer satisfaction.
 
 ---
 
----
-
 ### Day 57 - Multi-Source Sentiment (Social Media Simulation)
 
 **Scripts added:** `04_generate_social_posts.py`, `05_sentiment_social.py`, `06_combine_sources.py`
-**Output:** `data/processed/combined_sentiment.csv` (1,252 rows)
+**Output:** `data/processed/combined_sentiment.csv` (1,500 rows)
 
 | Source | Positive | Negative | Total |
 |---|---|---|---|
 | Reviews | 693 (69.3%) | 307 (30.7%) | 1,000 |
-| Social Posts | 216 (85.7%) | 36 (14.3%) | 252 |
-| Combined | 909 (72.6%) | 343 (27.4%) | 1,252 |
+| Social Posts | 250 (50.0%) | 250 (50.0%) | 500 |
+| Combined | 943 (62.9%) | 557 (37.1%) | 1,500 |
 
 **Pipeline steps:**
 | Step | Script | Output |
 |---|---|---|
-| 1 | 04_generate_social_posts.py | 252 simulated posts via Ollama llama3.2 |
+| 1 | 04_generate_social_posts.py | 500 simulated UK social posts for FreshBasket UK |
 | 2 | 05_sentiment_social.py | BERT labels + confidence scores on social posts |
 | 3 | 06_combine_sources.py | Merged dataset with `source` column |
 
-**Finding:** Reviews show significantly higher negativity (30.7%) compared to simulated social posts (14.3%). Two reasons: real customer reviews capture genuine dissatisfaction; AI-generated social posts skew promotional by nature. This demonstrates a key commercial insight - review platforms are a more reliable signal of customer dissatisfaction than social media. Combined dataset is Power BI ready for cross-source sentiment comparison.
+**Finding:** The refreshed Day 57 dataset now includes 500 realistic UK social posts and produces a 1,500-row combined export with clean `review_text` values across both sources. One useful modelling note: the DistilBERT classifier used here is binary only, so neutral-style social posts are still forced into positive or negative labels. That makes the social split more balanced than the raw post design, while still giving a realistic cross-source comparison dataset for Power BI.
 
 ---
 
@@ -302,7 +307,7 @@ suggesting seasonal variation in customer satisfaction.
 - [x] Day 51 - Automate sentiment report (1,000 reviews, one terminal command)
 - [x] Day 52 - Sentiment trend analysis (74 months, avg 0.975 BERT score)
 - [x] Day 53 - Power BI dashboard (4 KPIs, bar chart, trend line, word cloud)
-- [x] Day 54 - End-to-end pipeline test (all 5 steps passing, one command)
+- [x] Day 54 - End-to-end pipeline test (all 8 steps passing, one command)
 - [x] Day 55 - GitHub documentation (requirements.txt, setup instructions, screenshot)
 - [x] Day 56 - AI narrative generation (Ollama llama3.2, local model, 3-paragraph executive summary)
-- [x] Day 57 - Multi-source sentiment (252 social posts generated, combined dataset 1,252 rows, cross-source comparison)
+- [x] Day 57 - Multi-source sentiment (500 social posts generated, combined dataset 1,500 rows, cross-source comparison)

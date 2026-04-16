@@ -1,0 +1,45 @@
+
+============================================================
+  SENTIMENT ANALYSIS REPORT - 2026-04-16
+============================================================
+
+OVERVIEW
+----------------------------------------
+Total Reviews Analysed : 1,000
+Avg BERT Confidence    : 0.9754
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  POSITIVE    :   693 reviews  (69.3%)
+  NEGATIVE    :   307 reviews  (30.7%)
+
+TOP 5 POSITIVE THEMES
+----------------------------------------
+  1. great
+  2. like
+  3. good
+  4. chips
+  5. flavor
+
+TOP 5 NEGATIVE THEMES
+----------------------------------------
+  1. like
+  2. taste
+  3. good
+  4. chips
+  5. just
+
+============================================================
+  AI EXECUTIVE SUMMARY
+============================================================
+Executive Summary:
+
+Our review analysis indicates a mixed sentiment among customers, with 69.3% of reviews being positive and 30.7% negative. While the majority of customers have expressed satisfaction with their experience, we've identified key areas for improvement to enhance business health. Notably, our top negative themes reveal concerns around taste, quality, and perceived value ("just like chips"), while top positive themes highlight praise for flavor, quality, and customer satisfaction ("great" and "good").
+
+The data suggests that customers are largely pleased with their purchase, but the negative sentiments indicate room for improvement in product quality and overall experience. Our review analysis also reveals an imbalance in language usage, where customers tend to use more positive adjectives when praising the product (e.g., "great", "flavor") than when expressing dissatisfaction (e.g., "just like chips"). This insight highlights the importance of understanding customer language and adapting our messaging to effectively address concerns.
+
+To address these findings, we recommend two actionable steps: 1) Enhance product quality by reformulating recipes or sourcing better ingredients to address taste-related complaints. Additionally, investing in customer feedback mechanisms that incorporate sentiment analysis can help identify and prioritize areas for improvement, ensuring timely responses to emerging customer concerns. By prioritizing these recommendations, we can strengthen our brand reputation and foster a more positive customer experience.
+
+============================================================
+  END OF REPORT
+============================================================
