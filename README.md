@@ -258,21 +258,21 @@ suggesting seasonal variation in customer satisfaction.
 
 ---
 
-### Day 56 - AI Narrative Generation (Ollama + llama3.2)
+### Day 56 - Automated Narrative Generation (Python)
 
 **Script:** `scripts/03_generate_report.py` (extended)
-**Model:** llama3.2 via Ollama (runs locally on Mac, zero cost)
+**Method:** Python-generated executive summary (runs locally, no model server required)
 **Output:** `reports/sentiment_report_2026-04-16.txt`
 
 | Item | Detail |
 |---|---|
-| AI model used | llama3.2 (Meta) via Ollama |
-| Runs locally | Yes - no API key, no cost, no internet required |
-| Output added | 3-paragraph AI executive summary appended to report |
+| Summary method | Python-generated narrative summary |
+| Runs locally | Yes - no API key, no model server, no internet required |
+| Output added | 3-paragraph executive summary appended to report |
 | Paragraphs cover | Sentiment health, business concerns, 2 actionable recommendations |
 | Trigger | Automatically called at end of every report run |
 
-**Finding:** The sentiment report now goes beyond raw numbers - it automatically generates a plain English executive summary using a local AI model. This mirrors commercial tools like Power BI Narratives and Tableau Pulse, but built from scratch in Python.
+**Finding:** The sentiment report now goes beyond raw numbers - it automatically generates a plain English executive summary directly in Python. This keeps the workflow fully local and reproducible while still producing a business-ready narrative.
 
 ---
 
@@ -309,5 +309,5 @@ suggesting seasonal variation in customer satisfaction.
 - [x] Day 53 - Power BI dashboard (4 KPIs, bar chart, trend line, word cloud)
 - [x] Day 54 - End-to-end pipeline test (all 8 steps passing, one command)
 - [x] Day 55 - GitHub documentation (requirements.txt, setup instructions, screenshot)
-- [x] Day 56 - AI narrative generation (Ollama llama3.2, local model, 3-paragraph executive summary)
+- [x] Day 56 - Automated narrative generation (Python, local, 3-paragraph executive summary)
 - [x] Day 57 - Multi-source sentiment (500 social posts generated, combined dataset 1,500 rows, cross-source comparison)

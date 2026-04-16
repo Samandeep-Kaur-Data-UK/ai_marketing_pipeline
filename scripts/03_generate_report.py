@@ -1,13 +1,7 @@
 import pandas as pd
 import argparse
-import os
-import requests
 from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
-
-OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
-OLLAMA_TIMEOUT = int(os.getenv("OLLAMA_TIMEOUT", "120"))
 
 
 def get_top_themes(df, label_col, label_val, text_col, n=5):
@@ -33,50 +27,30 @@ def get_top_themes(df, label_col, label_val, text_col, n=5):
     return [word for word, _ in sorted_scores[:n]]
 
 
-def build_fallback_summary(stats: dict) -> str:
+def generate_executive_summary(stats: dict) -> str:
     positive_themes = ", ".join(stats["positive_themes"]) or "product quality and convenience"
     negative_themes = ", ".join(stats["negative_themes"]) or "pricing and delivery issues"
 
+    if stats["positive_pct"] >= 70:
+        health_description = "strong"
+    elif stats["positive_pct"] >= 60:
+        health_description = "broadly positive"
+    else:
+        health_description = "mixed"
+
     return (
-        f"Customer sentiment remains broadly healthy, with {stats['positive_pct']}% of reviews "
+        f"Customer sentiment is {health_description}, with {stats['positive_pct']}% of reviews "
         f"classified as positive versus {stats['negative_pct']}% negative across {stats['total']:,} "
-        f"reviews. Positive language clusters around {positive_themes}, suggesting customers most "
-        f"value product enjoyment and a reliable buying experience.\n\n"
+        f"reviews. Positive language centres on {positive_themes}, which suggests customers mainly "
+        f"value taste, product quality, and an overall dependable experience.\n\n"
         f"The main commercial risk sits in recurring negative themes such as {negative_themes}. "
-        f"Those topics point to friction that can damage repeat purchase intent and reduce trust, "
-        f"especially when a poor product experience is paired with delivery or price concerns.\n\n"
-        "Two practical next steps stand out. First, prioritise the highest-frequency complaint "
-        "themes for root-cause analysis with operations and merchandising teams. Second, build a "
-        "simple weekly tracker for negative sentiment volume and theme shifts so the team can act "
-        "before issues grow into wider brand damage."
+        f"Those themes point to product-level friction that can weaken repeat purchase intent and "
+        f"trust, especially when customers feel expectations on taste or quality are not consistently met.\n\n"
+        "Two practical actions stand out. First, prioritise the most frequent complaint themes for "
+        "root-cause analysis with product and operations teams so quality issues can be fixed at source. "
+        "Second, track the negative theme mix weekly and feed that trend into marketing and customer care "
+        "so messaging and service responses can be adjusted before sentiment deteriorates further."
     )
-
-
-def generate_ai_summary(stats: dict) -> str:
-    prompt = f"""You are a marketing analyst. Write a 3-paragraph executive summary based on these sentiment stats:
-- Total Reviews: {stats['total']}
-- Positive: {stats['positive_pct']}%
-- Negative: {stats['negative_pct']}%
-- Top negative themes: {stats['negative_themes']}
-- Top positive themes: {stats['positive_themes']}
-
-Cover: sentiment health, business concerns, and 2 actionable recommendations."""
-
-    try:
-        response = requests.post(
-            OLLAMA_URL,
-            json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False},
-            timeout=OLLAMA_TIMEOUT,
-        )
-        response.raise_for_status()
-        response_json = response.json()
-        summary = response_json.get("response", "").strip()
-        if not summary:
-            raise ValueError("Ollama returned an empty summary")
-        return summary
-    except Exception as exc:
-        print(f"Ollama summary unavailable, using fallback summary instead: {exc}")
-        return build_fallback_summary(stats)
 
 
 def main():
@@ -121,7 +95,7 @@ TOP 5 NEGATIVE THEMES
 {chr(10).join(f'  {i+1}. {t}' for i, t in enumerate(neg_themes))}
 
 ============================================================
-  AI EXECUTIVE SUMMARY
+  EXECUTIVE SUMMARY
 ============================================================
 """
 
@@ -135,12 +109,12 @@ TOP 5 NEGATIVE THEMES
         'negative_themes': neg_themes
     }
 
-    print(f"Generating executive summary via {OLLAMA_MODEL}...")
-    ai_summary = generate_ai_summary(stats)
-    report += ai_summary
+    print("Generating executive summary in Python...")
+    executive_summary = generate_executive_summary(stats)
+    report += executive_summary
     report += "\n\n============================================================\n  END OF REPORT\n============================================================\n"
 
-    print(ai_summary)
+    print(executive_summary)
     print("\n============================================================")
     print("  END OF REPORT")
     print("============================================================")
