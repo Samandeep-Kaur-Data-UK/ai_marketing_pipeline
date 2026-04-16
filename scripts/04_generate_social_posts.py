@@ -4,10 +4,21 @@ import random
 import re
 from datetime import datetime
 
+from llm_utils import (
+    LLMConfigurationError,
+    LLMRequestError,
+    available_provider,
+    generate_text,
+    provider_display_name,
+)
+
 
 OUTPUT_PATH = "data/processed/social_posts_raw.csv"
 TARGET_POSTS = 500
 DEFAULT_SEED = 20260416
+DEFAULT_BATCH_SIZE = 50
+MAX_API_ATTEMPTS = 20
+JUNK_KEYWORDS = ("here are", "posts:", "category", "---", "batch", "certainly", "sure")
 
 POSITIVE_LEADS = [
     "FreshBasket UK smashed it again,",
@@ -371,7 +382,7 @@ def add_posts(targets, leads, cores_by_topic, closers, seen, bucket, rng):
             target -= 1
 
 
-def generate_posts(seed: int) -> list[str]:
+def generate_template_posts(seed: int) -> list[str]:
     rng = random.Random(seed)
     posts = []
     seen = set()
@@ -422,6 +433,87 @@ def generate_posts(seed: int) -> list[str]:
     return posts
 
 
+def clean_candidate_posts(raw_text: str) -> list[str]:
+    cleaned_posts = []
+    seen = set()
+
+    for line in raw_text.splitlines():
+        post = line.strip()
+        if not post:
+            continue
+        if any(keyword in post.lower() for keyword in JUNK_KEYWORDS):
+            continue
+        if post in seen:
+            continue
+        if word_count(post) < 10 or word_count(post) > 40:
+            continue
+
+        seen.add(post)
+        cleaned_posts.append(post)
+
+    return cleaned_posts
+
+
+def build_api_prompt(batch_size: int) -> str:
+    return f"""Generate exactly {batch_size} realistic UK social media posts about an online food and grocery shop called FreshBasket UK.
+
+Rules:
+- One post per line
+- No numbering, no headings, no categories, no intro text
+- Mix the sentiment across positive, negative, and neutral
+- Use realistic UK English spelling and slang
+- Cover topics like delivery speed, product quality, packaging, customer service, price, freshness, and website experience
+- Keep every post between 10 and 40 words
+- Make them sound like real tweets or Facebook comments, not formal reviews
+
+Start immediately with post 1."""
+
+
+def generate_api_posts() -> tuple[list[str], str]:
+    provider = available_provider()
+    if provider is None:
+        raise LLMConfigurationError("No Claude/GPT API key available for social post generation.")
+
+    system_prompt = (
+        "You are generating realistic UK consumer social media posts for a sentiment analysis dataset."
+    )
+    posts = []
+    seen = set()
+
+    for attempt in range(1, MAX_API_ATTEMPTS + 1):
+        if len(posts) >= TARGET_POSTS:
+            break
+
+        remaining = TARGET_POSTS - len(posts)
+        batch_size = min(DEFAULT_BATCH_SIZE, remaining)
+        raw_text = generate_text(
+            system_prompt=system_prompt,
+            user_prompt=build_api_prompt(batch_size),
+            max_tokens=2000,
+            temperature=0.9,
+        )
+
+        new_posts = 0
+        for post in clean_candidate_posts(raw_text):
+            if post in seen:
+                continue
+            seen.add(post)
+            posts.append(post)
+            new_posts += 1
+
+        print(
+            f"AI batch {attempt}: collected {new_posts} new posts "
+            f"(running total: {len(posts)}/{TARGET_POSTS})"
+        )
+
+    if len(posts) < TARGET_POSTS:
+        raise LLMRequestError(
+            f"Only generated {len(posts)} valid posts after {MAX_API_ATTEMPTS} attempts."
+        )
+
+    return posts[:TARGET_POSTS], provider_display_name(provider)
+
+
 def save_posts(posts: list[str], output_date: str):
     with open(OUTPUT_PATH, "w", newline="") as file_handle:
         writer = csv.writer(file_handle)
@@ -434,9 +526,22 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=datetime.today().strftime("%Y-%m-%d"))
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
+    parser.add_argument("--mode", choices=("auto", "api", "template"), default="auto")
     args = parser.parse_args()
 
-    posts = generate_posts(args.seed)
+    generation_method = "local template generator"
+
+    if args.mode in {"auto", "api"}:
+        try:
+            posts, generation_method = generate_api_posts()
+        except (LLMConfigurationError, LLMRequestError, Exception) as exc:
+            if args.mode == "api":
+                raise
+            print(f"AI post generation unavailable, using local template generator instead: {exc}")
+            posts = generate_template_posts(args.seed)
+    else:
+        posts = generate_template_posts(args.seed)
+
     lengths = [word_count(post) for post in posts]
 
     if len(posts) != TARGET_POSTS:
@@ -451,6 +556,7 @@ def main():
     save_posts(posts, args.date)
 
     print(f"Saved {len(posts)} posts to {OUTPUT_PATH}")
+    print(f"Generation method: {generation_method}")
     print(f"Word count range: {min(lengths)} to {max(lengths)}")
     print("Sample posts:")
     for post in posts[:5]:

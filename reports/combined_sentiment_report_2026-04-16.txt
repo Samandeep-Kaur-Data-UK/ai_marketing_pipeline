@@ -1,0 +1,53 @@
+
+============================================================
+  COMBINED SENTIMENT REPORT - 2026-04-16
+============================================================
+
+DATASET
+----------------------------------------
+Input File              : data/processed/combined_sentiment.csv
+Text Column             : review_text
+Total Records Analysed  : 1,500
+Avg BERT Confidence     : 0.9724
+
+SENTIMENT BREAKDOWN
+----------------------------------------
+  POSITIVE    :   943 records  (62.9%)
+  NEGATIVE    :   557 records  (37.1%)
+  NEUTRAL     :     0 records  (0.0%)
+
+TOP 5 POSITIVE THEMES
+----------------------------------------
+  1. like
+  2. great
+  3. good
+  4. just
+  5. chips
+
+TOP 5 NEGATIVE THEMES
+----------------------------------------
+  1. like
+  2. today
+  3. really
+  4. taste
+  5. good
+
+
+SOURCE BREAKDOWN
+----------------------------------------
+  reviews  : total 1000 | positive  693 ( 69.3%) | negative  307 ( 30.7%)
+  social   : total  500 | positive  250 ( 50.0%) | negative  250 ( 50.0%)
+
+
+============================================================
+  EXECUTIVE SUMMARY
+============================================================
+Customer sentiment is broadly positive, with 62.9% of records classified as positive versus 37.1% negative across 1,500 records. Positive language centres on like, great, good, just, chips, which suggests customers mainly value taste, product quality, and an overall dependable experience.
+
+The main commercial risk sits in recurring negative themes such as like, today, really, taste, good. Those themes point to product-level friction that can weaken repeat purchase intent and trust, especially when expectations on taste or quality are not consistently met. Source comparison shows social is the most negative channel in this dataset, so that source should be monitored first when sentiment weakens.
+
+Two practical actions stand out. First, prioritise the most frequent complaint themes for root-cause analysis with product and operations teams so quality issues can be fixed at source. Second, track negative theme shifts weekly and feed that trend into marketing and customer care so messaging and service responses can be adjusted before sentiment deteriorates further.
+
+============================================================
+  END OF REPORT
+============================================================
