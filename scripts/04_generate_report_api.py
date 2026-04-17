@@ -3,7 +3,6 @@ from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
-from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, TfidfVectorizer
 
 from llm_utils import (
     LLMConfigurationError,
@@ -12,35 +11,12 @@ from llm_utils import (
     generate_text,
     provider_display_name,
 )
+from theme_utils import extract_top_themes
 
 
 DEFAULT_INPUT_PATH = "data/processed/reviews_bert.csv"
 DEFAULT_REPORT_TITLE = "SENTIMENT ANALYSIS REPORT"
 TEXT_COLUMN_CANDIDATES = ("Text", "review_text", "text")
-CUSTOM_STOP_WORDS = {"br", "freshbasket", "uk"}
-
-
-def get_top_themes(df, label_col, label_val, text_col, n=5):
-    subset = df[df[label_col] == label_val][text_col].dropna()
-    if len(subset) == 0:
-        return []
-
-    cleaned_subset = (
-        subset.astype(str)
-        .str.replace(r"<br\s*/?>", " ", regex=True)
-        .str.replace(r"[^A-Za-z\s]", " ", regex=True)
-        .str.replace(r"\s+", " ", regex=True)
-        .str.strip()
-    )
-
-    tfidf = TfidfVectorizer(
-        max_features=30,
-        stop_words=sorted(set(ENGLISH_STOP_WORDS).union(CUSTOM_STOP_WORDS)),
-    )
-    tfidf.fit(cleaned_subset)
-    scores = zip(tfidf.get_feature_names_out(), tfidf.idf_)
-    sorted_scores = sorted(scores, key=lambda x: x[1])
-    return [word for word, _ in sorted_scores[:n]]
 
 
 def infer_text_column(df: pd.DataFrame, requested_column: str | None) -> str:
@@ -210,8 +186,22 @@ def main():
     negative_pct = round(negative / total * 100, 1)
     neutral_pct = round(neutral / total * 100, 1)
 
-    pos_themes = get_top_themes(df, "bert_label_norm", "POSITIVE", text_column)
-    neg_themes = get_top_themes(df, "bert_label_norm", "NEGATIVE", text_column)
+    pos_themes = extract_top_themes(
+        df,
+        label_col="bert_label_norm",
+        label_value="POSITIVE",
+        text_col=text_column,
+        n=5,
+        min_df=3,
+    )
+    neg_themes = extract_top_themes(
+        df,
+        label_col="bert_label_norm",
+        label_value="NEGATIVE",
+        text_col=text_column,
+        n=5,
+        min_df=3,
+    )
     source_breakdown_lines, source_records = build_source_breakdown(df)
 
     report = f"""

@@ -34,22 +34,21 @@ VADER achieves slightly higher overall accuracy, but BERT is materially better a
 For marketing analytics, the cost of missing negative feedback is higher than the benefit of a small accuracy edge,
 so BERT remains the better production choice for this project.
 
-
-## Project 2 Retrospective
+## Final Retrospective
 
 ### What went well
-- Full pipeline from raw CSV to AI narrative runs in a single bash command
-- BERT negative recall at 0.897 is the standout commercial finding - complaints are caught reliably
-- Multi-source architecture (reviews + simulated social) demonstrates production thinking
-- All scripts committed with descriptive day-by-day commit history
+- The repo now runs as a clear pipeline from raw CSV to dashboard-ready outputs rather than a collection of isolated exercises.
+- DistilBERT produced the most commercially useful signal because it captured negative sentiment far better than the VADER baseline.
+- Extending the project with synthetic social data made the final dashboard more realistic by introducing source-level comparison.
+- The finished portfolio package includes documentation, reports, visuals, and a Power BI asset so reviewers can assess both technical work and communication.
 
-### What was hard
-- Anthropic and Azure Foundry API access failed - pivoted to local Ollama/llama3.2
-- Column name mismatches between scripts caused silent failures early on
-- VS Code file save issue on one script - resolved via terminal Python one-liner
+### What was challenging
+- Hosted LLM access was inconsistent during development, so the reporting workflow had to support both API-based and deterministic local summaries.
+- Early path and column mismatches across scripts created avoidable rework and showed the value of stricter project conventions.
+- The lighter final architecture was chosen deliberately after heavier local model-serving options proved unreliable on available hardware.
 
-### What I would do differently
-- Create a config.py on Day 1 with all file paths centralised
-- Use Python logging module instead of print statements throughout
-- Fine-tune DistilBERT on food/FMCG domain reviews for higher negative precision
-- Set up proper unit tests so pipeline errors surface immediately
+### What I would improve next
+- Centralise file paths and runtime settings in a small configuration module to reduce duplication across scripts.
+- Add lightweight automated tests for schema checks and output validation so regressions surface earlier.
+- Evaluate domain-specific fine-tuning or calibration to improve negative precision for food and grocery feedback.
+- Package the workflow for scheduled execution with logging so it can move from portfolio project to a repeatable reporting job.

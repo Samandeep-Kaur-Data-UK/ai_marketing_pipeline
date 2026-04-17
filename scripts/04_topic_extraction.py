@@ -1,17 +1,38 @@
+from pathlib import Path
+
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
 
-df = pd.read_csv("data/processed/reviews_bert.csv")
-negative_df = df[df["bert_label"] == "NEGATIVE"].copy()
-print(f"Total negative reviews: {len(negative_df)}")
+from theme_utils import build_theme_frame
 
-vectorizer = TfidfVectorizer(max_features=20, stop_words="english", ngram_range=(1, 2))
-tfidf_matrix = vectorizer.fit_transform(negative_df["Text"].fillna(""))
 
-feature_names = vectorizer.get_feature_names_out()
-tfidf_scores = tfidf_matrix.sum(axis=0).A1
+INPUT_PATH = Path("data/processed/reviews_bert.csv")
+OUTPUT_PATH = Path("data/processed/negative_topics.csv")
 
-keywords_df = pd.DataFrame({"keyword": feature_names, "tfidf_score": tfidf_scores}).sort_values("tfidf_score", ascending=False).reset_index(drop=True)
-keywords_df.to_csv("data/processed/negative_topics.csv", index=False)
-print(keywords_df.to_string(index=False))
-print("Saved to data/processed/negative_topics.csv")
+
+def main() -> None:
+    df = pd.read_csv(INPUT_PATH)
+    df["bert_label_norm"] = df["bert_label"].astype(str).str.upper()
+    negative_count = int((df["bert_label_norm"] == "NEGATIVE").sum())
+    print(f"Total negative reviews: {negative_count}")
+
+    themes = build_theme_frame(
+        df,
+        label_col="bert_label_norm",
+        label_value="NEGATIVE",
+        text_col="Text",
+        min_df=3,
+    ).rename(columns={"score": "term_frequency"})
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    themes.to_csv(OUTPUT_PATH, index=False)
+
+    if themes.empty:
+        print("No negative themes were extracted from the current dataset.")
+    else:
+        print(themes.head(15).to_string(index=False))
+
+    print(f"Saved to {OUTPUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()

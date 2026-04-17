@@ -1,10 +1,17 @@
 # AI Marketing Pipeline
 
-End-to-end sentiment analysis project built for Project 2 of a 120-Day Data Analytics Journey. The final version covers Days 46-60 and is organised as a portfolio-ready pipeline: ingest review data, benchmark two sentiment models, extract complaint themes, generate business-facing reports, and surface the outputs in Power BI.
+Portfolio-ready sentiment analysis pipeline that turns customer text into a marketing reporting workflow. The project ingests Amazon review data, benchmarks VADER against DistilBERT, extracts complaint themes, generates business-facing summaries, and prepares outputs for Power BI.
+
+## Portfolio Snapshot
+
+- Problem: marketing teams cannot manually review thousands of comments and product reviews every week
+- Data: 5,000 Amazon Fine Food reviews plus 500 synthetic FreshBasket UK social posts for cross-channel comparison
+- Modelling decision: DistilBERT was selected over VADER because it captures negative sentiment more reliably
+- Delivery: processed datasets, dated text reports, a trend chart, and a Power BI dashboard
 
 ## Business Problem
 
-Marketing teams cannot manually read thousands of reviews and comments every week. They need a repeatable way to answer four questions quickly:
+Marketing teams need a repeatable way to answer four questions quickly:
 
 - Are customers broadly positive or negative right now?
 - What themes are driving complaints?
@@ -19,14 +26,14 @@ This repo automates that workflow with Python and Power BI:
 - scores sentiment with VADER and DistilBERT
 - validates both models against review star ratings
 - chooses the production model based on business impact, not just headline accuracy
-- extracts negative themes with TF-IDF
+- extracts the most common positive and negative themes
 - generates dated text reports and a trend chart
 - adds 500 synthetic FreshBasket UK social posts to simulate a second customer-feedback source
 - combines both sources into one Power BI-ready dataset
 
 ## Why BERT Won
 
-The most important modelling decision in this project is not "which model is most accurate overall?" but "which model is safer for a marketing team that cannot afford to miss unhappy customers?"
+The key modelling question in this project is not "which model is most accurate overall?" but "which model is safer for a marketing team that cannot afford to miss unhappy customers?"
 
 | Model | Accuracy | Positive F1 | Negative F1 |
 | --- | ---: | ---: | ---: |
@@ -40,7 +47,7 @@ VADER edges overall accuracy, but DistilBERT is materially better at detecting n
 Mid-project, the social-data workflow moved away from a heavier local model-hosting setup because it was not practical on the available hardware. The final repo keeps the pipeline lighter and more professional:
 
 - Day 56 report generation is Claude/GPT API-ready, with a deterministic local fallback
-- Day 57 synthetic social data is generated through a Codex-assisted prompt workflow with an API option and a local template fallback
+- Day 57 synthetic social data is generated through a documented prompt workflow with an API option and a local template fallback
 - the final combined dataset keeps a `source` column so sentiment can be compared across reviews and social posts
 
 ```text
@@ -71,7 +78,7 @@ FreshBasket UK Social Posts
 - Hugging Face Transformers (DistilBERT SST-2)
 - Matplotlib
 - Power BI
-- Codex-assisted synthetic data generation
+- Prompt-authored synthetic data generation
 - Optional OpenAI / Anthropic API integration for executive-summary generation
 
 ## Repository Structure
@@ -97,7 +104,7 @@ ai_marketing_pipeline/
 `-- screenshots/
 ```
 
-Tracker compatibility wrappers are also retained for the original day-by-day file references:
+Compatibility wrappers are also retained for the original day-by-day file references:
 
 - `scripts/01_vader_sentiment.py`
 - `scripts/03_generate_report.py`
@@ -131,11 +138,19 @@ Tracker compatibility wrappers are also retained for the original day-by-day fil
 
 One important modelling note: the DistilBERT checkpoint used here is binary, so neutral-style social posts are still forced into positive or negative labels during scoring. The raw generator still targets a mixed positive, negative, and neutral post design for the Day 57 requirement.
 
+## What To Review First
+
+- `README.md` for the project story and architecture
+- `reports/combined_sentiment_report_latest.txt` for the business-style output
+- `reports/sentiment_trend.png` for the time-series visual
+- `screenshots/Project2_AI_Sentiment_Dashboard_BERT_Day53_v1.png` for the Power BI dashboard
+- `project_notes.md` and `RETROSPECTIVE.md` for the evaluation and reflection
+
 ## How To Run
 
 ### 1. Clone the repo and prepare the raw data
 
-Place the Amazon review source file at `data/raw/reviews.csv`. The raw dataset is not committed because of file size, but processed sample outputs are included so the project is still reviewable on GitHub.
+Place the Amazon review source file at `data/raw/reviews.csv`. Processed sample outputs are already included so the repo is still reviewable even if a reviewer does not rerun the transformer step locally.
 
 ### 2. Install dependencies
 
@@ -174,3 +189,4 @@ This project is designed to show practical analytics engineering judgement rathe
 - choosing BERT because negative sentiment capture matters more than slightly higher overall accuracy
 - restructuring the repo into a repeatable pipeline instead of leaving it as a loose set of experiments
 - replacing an impractical local LLM workflow with a cleaner, lighter multi-source architecture
+- packaging the work with reports, dashboard assets, and presentation notes so the output is understandable to non-technical stakeholders
