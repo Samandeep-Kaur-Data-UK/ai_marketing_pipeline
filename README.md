@@ -1,4 +1,5 @@
 # AI Marketing Pipeline
+**Tech Stack:** Python, Pandas, VADER, DistilBERT, Scikit-learn, Power BI
 
 Portfolio-ready sentiment analysis pipeline that turns customer text into a marketing reporting workflow. The project ingests Amazon review data, benchmarks VADER against DistilBERT, extracts complaint themes, generates business-facing summaries, and prepares outputs for Power BI.
 
@@ -73,7 +74,7 @@ FreshBasket UK Social Posts
 
 - Python
 - Pandas
-- scikit-learn
+- Scikit-learn
 - VADER Sentiment
 - Hugging Face Transformers (DistilBERT SST-2)
 - Matplotlib
