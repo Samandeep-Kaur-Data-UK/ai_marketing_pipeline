@@ -4,6 +4,9 @@ set -euo pipefail
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$PROJECT_DIR"
 RUN_DATE="$(date +%F)"
+export MPLCONFIGDIR="${TMPDIR:-/tmp}/ai-marketing-pipeline-mpl"
+export MPLBACKEND="Agg"
+mkdir -p "$MPLCONFIGDIR"
 
 if [ -x ".venv/bin/python" ]; then
   PYTHON_BIN=".venv/bin/python"
@@ -22,6 +25,7 @@ echo "================================================"
 
 echo ""
 echo "Using Python interpreter: $PYTHON_BIN"
+echo "Matplotlib config directory: $MPLCONFIGDIR"
 echo "Packages ready."
 
 echo ""
